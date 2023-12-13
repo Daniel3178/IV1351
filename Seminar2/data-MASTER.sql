@@ -5455,7 +5455,7 @@ VALUES
   -- to insert new data that targets that specific week cause the existing data
   -- has record of past but future is not garanteed. Let the lesson_id be 
   -- as it is since those have lower max_num_sutdents so you don't need to insert alot if info
-  -- adjust the data only, DATE OF LAST CHAKES: 13/dec-2023
+  -- adjust the data only, DATE OF LAST UPDATE: 13/dec-2023
   INSERT INTO timeslot (start_time,timeslot_date,lesson_id,end_time,place)
 VALUES
   ('3:28 PM','Dec 18, 2023',11,'4:57 PM','SalH'),
